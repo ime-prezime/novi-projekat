@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pocetna stranica</title>
+	<meta charset="utf-8">
+</head>
+<body>
+
+	<style type="text/css">
+		header{
+			height:200px;
+			border:1px solid black;
+			box-shadow:4px 5px 5px rgba(110, 110, 110, 0.45);
+		}
+		.tekst{
+			font-size:15px;
+			position:relative;
+			right:-10px;
+		}
+		.slika{
+			height:50px;
+			width:50px;
+			position:relative;
+			float:right;
+			right:20px;
+			top:-20px;
+			border-radius:60%;
+		}
+		.meni ul{
+			list-style-type:none;
+		}
+		.meni li{
+			display:inline-block;
+			margin:20px;
+		}
+		.meni a{
+			text-decoration:none;
+		}
+		.meni{
+			position:fixed;
+			font-family:arial;
+			font-size:20px;
+		}
+		.meni a:hover{
+			color:lightgreen;
+		}
+		footer{
+			height:200px;
+			width:100%;
+			background:lightblue;
+		}
+		.donja{
+			height:50px;
+			background:lightgreen;
+		}
+		.tekstovi{
+			position:relative;
+			top:10px;
+			right:-30px;
+			font-size:12px;
+			text-transform:lowercase;
+		}
+		.slika12{
+			height:70px;
+			width:70px;
+			margin:10px;
+			border-radius:50%;
+			position:relative;
+			left:40%;
+			margin-top:90px;
+		}
+		h1{
+			text-align:center;
+		}
+		.djura{
+			font-size:20px;
+		}
+		nav{
+			text-align:center;
+			height:150px;
+			margin:10px;
+			width:100%;
+			border:1px solid black;
+		}
+		.dropbtn{
+			background:lightgreen;
+			color:white;
+			font-size:16px;
+			border:none;
+			cursor:pointer;
+			padding:16px;
+		}
+		.dropdown{
+			position:relative;
+			display:inline-block;
+			left:30px;
+			margin:20px;
+			top:50px;
+		}
+		.dropdown-content{
+			display:none;
+			position:absolute;
+			background:#f9f9f9;
+			min-width:160px;
+			box-shadow:0px 8px 16px 8px rgba(0,0,0,0.2);
+		}
+		.dropdown-content a{
+			color:black;
+			padding:12px 16px;
+			text-decoration:none;
+			display:block;
+		}
+		.dropdown:hover .dropbtn{
+			background:#3e8e41;
+		}
+		.dropdown:hover .dropdown-content{
+			display:block;
+		}
+		.dropdown-content a:hover{
+			background:#f1f1f1;
+		}
+	</style>
+	<header>
+		<div class="tekst">
+			<p>Subota 30 maj, 2020 godine</p>
+		</div>
+		<div class="drustvene_mreze">
+			<a href="https://www.facebook.com/pages/category/Elementary-School/OS-Djura-Danicic-Beograd-164977903535278/"><img src="facebook.jpg" class="slika" title="facebook"></a>
+			<a href="https://www.youtube.com/watch?v=vDv3AMGaueg"><img src="youtube.jpg" class="slika" title="youtube"></a>
+		</div> 
+
+		<div class="meni">
+			<ul>
+				<li><a href="ile:///C:/Users/Korisnik/Desktop/Djura%20Danicic/pocetna.html">Pocetna</a></li>
+				<li><a href="file:///C:/Users/Korisnik/Desktop/Djura%20Danicic/pocetna.html">O skoli</a></li>
+				<li><a href="">Zaposleni</a></li>
+				<li><a href="">Prijava Prvaka</a></li>
+				<li><a href="">Ucenici</a></li>
+				<li><a href="">Projekti</a></li>
+				<li><a href="">Aktivnosti</a></li>
+				<li><a href="">Casopis</a></li>
+				<li><a href="">Kontakt</a></li>
+				<li><a href="">Ucenje na daljinu</a></li>
+			</ul>
+		</div>
+	</header>
+	<nav>
+		<div class="dropdown">
+			<button class="dropbtn">Zaposleni</button>
+			<div class="dropdown-content">	
+				<a href="file:///C:/Users/Korisnik/Desktop/Djura%20Danicic/direktor.html">Direktor skole</a>
+				<a href="file:///C:/Users/Korisnik/Desktop/Djura%20Danicic/sekretar.html#">Sekretar skole</a>
+				<a href="file:///C:/Users/Korisnik/Desktop/Djura%20Danicic/racunovodstvo.html#">Racunovodstvo skole</a>
+				<a href="file:///C:/Users/Korisnik/Desktop/Djura%20Danicic/saradnici.html#">Strucni saradnici</a>		
+			</div>
+		</div>
+
+		<div class="dropdown">
+			<button class="dropbtn">O skoli</button>
+			<div class="dropdown-content">	
+				<a href="file:///C:/Users/Korisnik/Desktop/Djura%20Danicic/djura_danicic.html">O Djuri Danicicu</a>
+				<a href="#">Raspored smena</a>
+				<a href="#">Racunovodstvo skole</a>
+				<a href="#">Strucni saradnici</a>		
+			</div>
+		</div>
+
+		<div class="dropdown">
+			<button class="dropbtn">Ucenici</button>
+			<div class="dropdown-content">	
+				<a href="#">Odeljenja</a>
+				<a href="#">Vukovci</a>
+			</div>
+		</div>
+
+		<div class="dropdown">
+			<button class="dropbtn">Ucenje na daljinu</button>
+			<div class="dropdown-content">	
+				<a href="#">Ucenje na daljinu razredna nastava</a>
+				<a href="#">Ucenje na daljinu predmetna nastava</a>
+				<a href="#">Racunovodstvo skole</a>
+				<a href="#">Strucni saradnici</a>		
+			</div>
+		</div>
+	</nav>
+	<section>
+		<h1>Istorijat OS "Djura Danicic"</h1>
+		<p class="djura"><i>После Првог светског рата Београд, престоница прве југословенске државе Краљевине Срба, Хрвата и Словенаца, задржао је свој турски изглед, са Калемегданском тврђавом и улицама са малим кафанама и радњама. Околина Београда била је под њивама и шумом. У тој околини налазио се и део данашње Звездаре Булбудер („славујева песма“), где су Турци у своје време излазили на теферич, уживајући у песми славуја. Баш на том Булбудеру одлучено је да се подигне школа. Но како се тадашња држава, као и цео свет тих година, налазила у великој економској кризи, поред општинског новца за градњу школе оснивају се на Булбудеру и добротворни фондови.
+
+			Велики добротвори, којима је у знак захвалности у школском холу уграђена мермерна плоча, били су: Друштво за ученике Булбудера, учитељице Митра Ж. Крстић и Полексија Пајић, Учитељска задруга А.Д., као и хуманитарна друштва „40 мученика“, „Племенитост“, „Сирото дете“, „Племенита душа дечја нада“, „Љуба зуба“, „Кум“, „Славуј“, „Тозе побратим“ и „Браца Брана“.
+
+			Зграда је подигнута 1927. године, плански зидана за школу, на великом плацу, од којег ће касније половину узети за градњу цркве која и данас постоји. Ондашњи школски одбор и управитељ Стојан Глигоријевић, први у историји Школе, противили су се подизању цркве, због смањења школског дворишта.
+
+			Школу је пројектовао архитекта Жарко К. Крстовић, који је надгледао и извођење радова. Одобрење за рад и отварање Школе дали су тадашњи председник Општине др Коста Јовановић и председник месног Школског одбора, директор техничке управе Велисав Н. Вуковић. Зграда је подигнута са осам учионица, две канцеларије и салом за културне приредбе. Имала је своју ложионицу и више малих просторија, за намене по потреби. Од оснивања до 1945. године Школа се звала „Цар Душан“, а прва седница Наставничког већа новотворене Школе одржана је 28. октобра 1928. године.
+			Одмах по завршетку Другог светског рата Школа мења назив и добија име „Вежбаона 14“ или „Школа број 14“. Њен први послератни управитељ била је Зага Милосављевић, а касније Милица Јанковић. Године 1951. за управитеља је постављен Милика Јанковић, учитељ. Већ 1952. године Школа прераста у осмогодишњу и добија име „Ђура Даничић“. Међутим, тек 23. новембра 1962. године, решењем број 43296, Народни одбор општине Звездара дао је Школи званично име Основна школа „Ђура Даничић“, са седиштем у Београду, улица XXИ дивизије 31. Адаптација Школе извршена је 1960. године. Школи је дозидан спрат са четири учионице, а у приземљу су оспособљене две просторије и то радионица за општетехничко образовање и мала сала за физичко васпитање.
+
+			Од оснивања број ученика у Школи сваке године је растао: 1928/29. школске године било је девет одељења са 504 ученика, 1929/30. године било је 711 ученика, а 1955. године 1229 ученика и 45 наставника. Међутим, број ученика шездесетих година почиње да лагано опада, тако да је школске 1968/69. године у школи било свега 522 ученика и 27 наставника.
+
+			Од 1. септембра 1970. године школа се премешта са територије општине Звездара  на територију општине Вождовац, у ново насеље „Браћа Јерковић“, улица Мештровићева 19а. Од 1970. до 1977. године директор школе био је Милован Миленковић, професор. Године 1977. за вршиоца дужности директора постављена је Надежда Илић, професор. Потом је за директора изабран и именован Славко Остојић, наставник, од 1993. до 2001. године директор школе био је Душан Вујновић, професор историје, а од 2001. до 23. јуна 2005. године директор Школе био је мр Радован Антонијевић, дипломирани педагог.Од 2005.г директор Школе је Слободан Малушић, педагог.
+
+			У школи је дуго година радио као медијатекар наставник Техничког образовања и дечји писац Градимир Стојковић, који је написао и дечије бестселере Хајдук у Београду, Хајдук над Дунавом, Хајдук против ветрењача, Хајдук са друге стране и Хајдук чува домовину.
+		Витрине наше Школе краси преко 100 пехара, диплома и повеља.</i></p>
+	</section>
+
+	<footer>
+		<a href="#"><img src="facebook.jpg" class="slika12" title="facebook"></a>
+		<a href="#"><img src="youtube.jpg" class="slika12" title="youtube"></a>
+		<div class="donja">
+			<p class="tekstovi">Rad napisao Nemanja Petrovic</p>
+		</div>
+	</footer>
+</body>
+</html>

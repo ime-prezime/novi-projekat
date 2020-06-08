@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Saradnici skole</title>
+</head>
+<body>
+	<style type="text/css">
+		nav{
+			text-align:center;
+			height:150px;
+			margin:10px;
+			width:100%;
+			border:1px solid black;
+		}
+		.dropbtn{
+			background:lightgreen;
+			color:white;
+			font-size:16px;
+			border:none;
+			cursor:pointer;
+			padding:16px;
+		}
+		.dropdown{
+			position:relative;
+			display:inline-block;
+			left:30px;
+			margin:20px;
+			top:50px;
+		}
+		.dropdown-content{
+			display:none;
+			position:absolute;
+			background:#f9f9f9;
+			min-width:160px;
+			box-shadow:0px 8px 16px 8px rgba(0,0,0,0.2);
+		}
+		.dropdown-content a{
+			color:black;
+			padding:12px 16px;
+			text-decoration:none;
+			display:block;
+		}
+		.dropdown:hover .dropbtn{
+			background:#3e8e41;
+		}
+		.dropdown:hover .dropdown-content{
+			display:block;
+		}
+		.dropdown-content a:hover{
+			background:#f1f1f1;
+		}
+		header{
+			height:200px;
+			border:1px solid black;
+			box-shadow:4px 5px 5px rgba(110, 110, 110, 0.45);
+		}
+		.tekst{
+			font-size:15px;
+			position:relative;
+			right:-10px;
+		}
+		.slika{
+			height:50px;
+			width:50px;
+			position:relative;
+			float:right;
+			right:20px;
+			top:-20px;
+			border-radius:60%;
+		}
+		.meni ul{
+			list-style-type:none;
+		}
+		.meni li{
+			display:inline-block;
+			margin:20px;
+		}
+		.meni a{
+			text-decoration:none;
+		}
+		.meni{
+			position:fixed;
+			font-family:arial;
+			font-size:20px;
+		}
+		.meni a:hover{
+			color:lightgreen;
+		}
+		footer{
+			height:200px;
+			width:100%;
+			background:lightblue;
+		}
+		.donja{
+			height:50px;
+			background:lightgreen;
+		}
+		.tekstovi{
+			position:relative;
+			top:10px;
+			right:-30px;
+			font-size:12px;
+			text-transform:lowercase;
+		}
+		.tekst1{
+			width:100%;
+			height:250px;
+		}
+		.tekst1 a{
+			text-decoration:none;
+			text-align:center;
+			position:relative;
+			left:43%;
+			background:lightblue;
+			padding:10px;
+			border-radius:25px;
+			text-align:center;
+		}
+		.tekst1 a:hover{
+			background:blue;
+			color:white;
+			font-size:20px;
+		}
+		h1{
+			text-align:center;
+			font-size:25px;
+			font-family:arial;
+		}
+		.slika12{
+			height:70px;
+			width:70px;
+			margin:10px;
+			border-radius:50%;
+			position:relative;
+			left:40%;
+			margin-top:90px;
+		}
+		.nada{
+			height:250px;
+			margin:20px;
+			padding:20px;
+		}
+	</style>
+	<header>
+		<div class="tekst">
+			<p>Subota 30 maj, 2020 godine</p>
+		</div>
+		<div class="drustvene_mreze">
+			<a href="https://www.facebook.com/pages/category/Elementary-School/OS-Djura-Danicic-Beograd-164977903535278/"><img src="facebook.jpg" class="slika" title="facebook"></a>
+			<a href="https://www.youtube.com/watch?v=vDv3AMGaueg"><img src="youtube.jpg" class="slika" title="youtube"></a>
+		</div> 
+
+		<div class="meni">
+			<ul>
+				<li><a href="file:///C:/Users/Korisnik/Desktop/Djura%20Danicic/pocetna.html">Pocetna</a></li>
+				<li><a href="file:///C:/Users/Korisnik/Desktop/Djura%20Danicic/pocetna.html">O skoli</a></li>
+				<li><a href="">Prijava Prvaka</a></li>
+				<li><a href="">Zaposleni</a></li>
+				<li><a href="">Ucenici</a></li>
+				<li><a href="">Projekti</a></li>
+				<li><a href="">Aktivnosti</a></li>
+				<li><a href="">Casopis</a></li>
+				<li><a href="">Kontakt</a></li>
+				<li><a href="">Ucenje na daljinu</a></li>
+			</ul>
+		</div>
+	</header>
+
+	<nav>
+		<div class="dropdown">
+			<button class="dropbtn">Zaposleni</button>
+			<div class="dropdown-content">	
+				<a href="file:///C:/Users/Korisnik/Desktop/Djura%20Danicic/direktor.html">Direktor skole</a>
+				<a href="file:///C:/Users/Korisnik/Desktop/Djura%20Danicic/sekretar.html#">Sekretar skole</a>
+				<a href="file:///C:/Users/Korisnik/Desktop/Djura%20Danicic/racunovodstvo.html#">Racunovodstvo skole</a>
+				<a href="file:///C:/Users/Korisnik/Desktop/Djura%20Danicic/saradnici.html#">Strucni saradnici</a>		
+			</div>
+		</div>
+
+		<div class="dropdown">
+			<button class="dropbtn">O skoli</button>
+			<div class="dropdown-content">	
+				<a href="file:///C:/Users/Korisnik/Desktop/Djura%20Danicic/djura_danicic.html">O Djuri Danicicu</a>
+				<a href="#">Raspored smena</a>
+				<a href="#">Racunovodstvo skole</a>
+				<a href="#">Strucni saradnici</a>		
+			</div>
+		</div>
+
+		<div class="dropdown">
+			<button class="dropbtn">Ucenici</button>
+			<div class="dropdown-content">	
+				<a href="#">Odeljenja</a>
+				<a href="#">Vukovci</a>
+			</div>
+		</div>
+
+		<div class="dropdown">
+			<button class="dropbtn">Ucenje na daljinu</button>
+			<div class="dropdown-content">	
+				<a href="#">Ucenje na daljinu razredna nastava</a>
+				<a href="#">Ucenje na daljinu predmetna nastava</a>
+				<a href="#">Racunovodstvo skole</a>
+				<a href="#">Strucni saradnici</a>		
+			</div>
+		</div>
+	</nav>
+
+	<div class="tekst1">
+		<h1>Osnovna skola<br>
+			Djura Danicic <br>
+		Beograd</h1>
+		<a href="#" class="link">Kliknite ovde da prijavite prvaka</a>
+	</div>
+
+	<div class="saradnici">
+		<h1 style="text-transform:uppercase; text-align:left; margin:20px; padding:20px; font-size:20px;">Strucni Saradnici</h1>
+		<p style="font-size:20px; text-align:left; margin:20px; padding:20px;">Skolski pedagog</p>
+		<p style="font-size:20px; text-align:left; margin:20px; padding:20px; font-weight:bold;">Tamara Ivanovic</p>
+		<p style="font-size:20px; text-align:left; margin:20px; padding:20px;">Radno vreme:</p>
+		<p style="font-size:20px; text-align:left; margin:20px; padding:20px;">Ponedeljkom, sredom, cetvrtkom i petkom pre podne od 8 do 14 casova,<br>
+		a utorkom poslepodne od 13 do 19 casova</p>
+		<p style="font-weight:bold; margin:20px; padding:20px; text-align:left; font-size:20px;">tel:2462-162/106</p>
+		<h1 style="font-size:20px; text-align:left; margin:20px; padding:20px;">Skolski bibliotekar</h1>
+		<img src="slike/nada.jpg" class="nada">
+		<p style="font-size:20px; font-weight:bold; margin:20px; padding:20px;">Nada D.Radenkovic</p>
+		<p style="font-size:20px; font-weight:bold; margin:20px; padding:20px;">Zivotni moto: Hrabre rati sreca</p>
+		<p style="font-size:20px; margin:20px; padding:20px;">email:djurinabiblioteka@gmail.com</p>
+
+		<h1 style="font-size:20px; text-transform:uppercase; margin:20px; padding:20px; text-align:left;">Skolski logoped</h1>
+		<p style="font-size:20px; text-align:left; margin:20px; padding:20px;">Radmila Ilic, dipl.defektolog</p>
+		<p style="font-size:20px; text-align:left; margin:20px; padding:20px;">Ponedeljkom posle podne od 13 do 19 casova,<br>
+			utorkom pre podne od 8 do 14 casova,<br>
+			a svake druge srede (plava smena) posle podne od 13 do 19 casova.<br>
+		tel: 2462-162/106</p>
+	</div>
+
+
+	<footer>
+		<a href="#"><img src="facebook.jpg" class="slika12" title="facebook"></a>
+		<a href="#"><img src="youtube.jpg" class="slika12" title="youtube"></a>
+		<div class="donja">
+			<p class="tekstovi">Rad napisao Nemanja Petrovic</p>
+		</div>
+	</footer>
+
+</body>
+</html>
